@@ -1,0 +1,166 @@
+/* Base styles for all screens */
+.Main {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    background-color: rgb(240, 217, 157);
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem; /* Default font size for large screens */
+}
+
+.paragraph {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.25rem; /* Default font size for large screens */
+    margin-left: 10%; /* Adjust margins for large screens */
+    margin-right: 10%;
+}
+
+.heading2 {
+    margin-left: 10%; /* Adjust margins for large screens */
+    margin-right: 10%;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem; /* Default font size for large screens */
+}
+
+.paragraph2 {
+    margin-left: 10%; /* Adjust margins for large screens */
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+.image2 {
+    margin-top: 40px;
+    height: 50%;
+    width: 50%;
+    margin-left: auto; /* Center images */
+    margin-right: auto;
+}
+
+.heading3 {
+    margin-left: 10%; /* Adjust margins for large screens */
+    margin-right: 10%;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem; /* Default font size for large screens */
+}
+
+.paragraph3 {
+    margin-left: 10%; /* Adjust margins for large screens */
+    margin-right: 10%;
+    margin-top: 20px;
+}
+
+.image3 {
+    margin-left: auto; /* Center images */
+    margin-right: auto;
+    margin-top: 40px;
+    width: 50%; /* Adjust width for large screens */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive styles for screens smaller than 768px (e.g., mobile) */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 1.5rem; /* Adjust font size for mobile screens */
+    }
+
+    .paragraph {
+        font-size: 1rem; /* Adjust font size for mobile screens */
+        margin-left: 5%; /* Adjust margins for mobile screens */
+        margin-right: 5%;
+    }
+
+    .heading2 {
+        font-size: 1.5rem; /* Adjust font size for mobile screens */
+        margin-left: 5%; /* Adjust margins for mobile screens */
+        margin-right: 5%;
+    }
+
+    .paragraph2 {
+        font-size: 0.875rem; /* Adjust font size for mobile screens */
+        margin-left: 5%; /* Adjust margins for mobile screens */
+        margin-right: 5%;
+    }
+
+    .image2 {
+        width: 80%; /* Adjust width for mobile screens */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: auto; /* Center images */
+        margin-right: auto;
+    }
+
+    .heading3 {
+        font-size: 1.5rem; /* Adjust font size for mobile screens */
+        margin-left: 5%; /* Adjust margins for mobile screens */
+        margin-right: 5%;
+    }
+
+    .paragraph3 {
+        font-size: 0.875rem; /* Adjust font size for mobile screens */
+        margin-left: 5%; /* Adjust margins for mobile screens */
+        margin-right: 5%;
+    }
+
+    .image3 {
+        width: 80%; /* Adjust width for mobile screens */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: auto; /* Center images */
+        margin-right: auto;
+    }
+}
+
+/* Responsive styles for screens larger than 1024px (e.g., large laptops) */
+@media (min-width: 1024px) {
+    .heading {
+        font-size: 2.5rem; /* Increase font size for large screens */
+    }
+
+    .paragraph {
+        font-size: 1.5rem; /* Increase font size for large screens */
+        margin-left: 15%; /* Adjust margins for large screens */
+        margin-right: 15%;
+    }
+
+    .heading2 {
+        font-size: 2.5rem; /* Increase font size for large screens */
+        margin-left: 15%; /* Adjust margins for large screens */
+        margin-right: 15%;
+    }
+
+    .paragraph2 {
+        font-size: 1.25rem; /* Increase font size for large screens */
+        margin-left: 15%; /* Adjust margins for large screens */
+        margin-right: 15%;
+    }
+
+    .image2 {
+        width: 60%; /* Adjust width for large screens */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .heading3 {
+        font-size: 2.5rem; /* Increase font size for large screens */
+        margin-left: 15%; /* Adjust margins for large screens */
+        margin-right: 15%;
+    }
+
+    .paragraph3 {
+        font-size: 1.25rem; /* Increase font size for large screens */
+        margin-left: 15%; /* Adjust margins for large screens */
+        margin-right: 15%;
+    }
+
+    .image3 {
+        width: 60%; /* Adjust width for large screens */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+

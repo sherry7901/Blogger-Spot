@@ -1,0 +1,122 @@
+/* Overall container to ensure layout */
+.comment-list-container {
+    max-height: 200px; /* Set the maximum height for the comments section */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px; /* Add padding to avoid content touching the edges */
+}
+
+/* Style for each comment container */
+.comment-container {
+    border: 1px solid black; /* Border color for comments */
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+    border-radius: 4px; /* Optional: to give rounded corners */
+    background-color: #f9f9f9; /* Optional: to set a background color */
+    overflow-y: auto;
+}
+
+.Comment-button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px; /* Optional: to give rounded corners */
+    padding: 5px 10px; /* Add padding for button size */
+    cursor: pointer;
+    font-size: 14px; /* Adjust font size as needed */
+    transition: background-color 0.3s ease;
+    
+}
+.comment-text {
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Adjust font size as needed */
+    display: inline-block;
+    max-width: calc(100% - 50px); /* Adjust width to leave space for icons */
+}
+
+/* Container for the edit and delete buttons */
+.comment-buttons {
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+/* Edit and Delete icon styles */
+.delete-icon {
+    width: 20px; /* Size of the icon */
+    height: 20px;
+    cursor: pointer;
+    fill: #333; /* Icon color */
+    color: red;
+}
+.edit-icon{
+    width: 20px; /* Size of the icon */
+    height: 20px;
+    cursor: pointer;
+    fill: #333;
+    color: green;
+
+}
+
+/* Hover effect for the comment container */
+.comment-container:hover .comment-buttons {
+    opacity: 1;
+}
+
+/* Flex layout for comment content */
+.comment-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Edit form styling */
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between input field and buttons */
+}
+
+/* Container for Save and Cancel buttons */
+.edit-comment {
+    display: flex;
+    gap: 10px; /* Space between Save and Cancel buttons */
+    margin-top: 10px;
+}
+
+/* Style for Save button */
+.Save {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px; /* Optional: to give rounded corners */
+    padding: 5px 10px; /* Add padding for button size */
+    cursor: pointer;
+    font-size: 14px; /* Adjust font size as needed */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.Save:hover {
+    background-color: darkgreen; /* Darker green for hover effect */
+}
+
+/* Style for Cancel button */
+.Cancel {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px; /* Optional: to give rounded corners */
+    padding: 5px 10px; /* Add padding for button size */
+    cursor: pointer;
+    font-size: 14px; /* Adjust font size as needed */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.Cancel:hover {
+    background-color: darkred; /* Darker red for hover effect */
+}
+
