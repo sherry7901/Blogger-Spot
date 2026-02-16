@@ -7,10 +7,9 @@ This was my **first project in 2nd semester**, which helped me understand backen
 ## Folder Structure
 
 CRUD-Blog-App/
-│
-├── frontend/ → React project
-├── backend/ → Express + MongoDB project
-└── README.md
+frontend/ → React project
+backend/ → Express + MongoDB project
+README.md
 
 
 ## Features
